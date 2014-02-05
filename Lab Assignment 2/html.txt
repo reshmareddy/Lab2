@@ -1,0 +1,341 @@
+<div data-role="page" id="page1">
+
+     <div data-role="header">
+          <h1>UMKC Webpage</h1>
+     </div>
+
+     <div data-role="content">     
+          <!--<title>CS5551 Lab Assignment - 2 </title>
+<div id="weather"></div>-->
+<div data-role = "page" id = "pg">
+    <div data-role ="header">
+        <h1>Weather Report and Directions</h1>
+    </div>
+    <div data-role="content">
+        <p><a href="#weather1" data-role="button">Weather at the current location</a></p>
+        <p><a href="#dir" data-role="button"> Directions</a></p>
+    </div>
+</div>
+            
+ <!--<div data-role="page" id="weather1">
+
+         <div id="weather"></div>
+     </div> -->
+<div data-role="page" id="weather1">
+
+     <div align="center" data-role="header">
+
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Weather</h1>
+         <div id="weather"></div>
+     </div> 
+</div>
+
+
+															
+														
+	  <p><a href="#MouseEventPage" data-role="button">School of Engineering</a></p>      
+	  <p><a href="#PopUpPage" data-role="button">Advanced Software Engineering</a></p>         
+          <p><a href="#LoadWidgetPage" data-role="button">Directions</a></p>
+            
+ 	               
+     </div>
+     
+  
+     
+</div>
+
+<div data-role="page" id="ButtonEventPage">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Button Event Page</h1>
+     </div>
+
+<!--     <div data-role="content">     
+          <p>Button Event Sample</p>
+	  <button id="WelcomeButton">Welcome</button>
+          <button id="EventButton">Get random number</button>
+          <div id="status"></div>
+     </div>
+     -->
+<div>
+<iframe src="http://www.umkc.edu/" width="540" height="600">
+</iframe>
+</div>
+     
+     
+</div>
+
+
+<!--
+<div data-role="page" id="MouseEventPage">
+
+
+
+
+
+     <div align="center" data-role="header">
+
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Mouse Event Page</h1>
+     </div> <br><br>
+
+    <font color="red">Mouse Leave Event: </font>
+
+    <div align="center" class="out enterleave">
+	<p>move your mouse</p>
+	<div align="center" class="in enterleave">
+	<p>move your mouse</p>
+	</div>
+    </div><br><br>
+
+
+  
+<div>
+<font color="red">Mouse Hover Event: </font>
+
+<ul data-role="listview" data-inset="true">
+    <li>Computer and Electrical Engineering</li>
+    <li>Civil Engineering</li>
+    <li>Mechanical Engineering</li>
+    <li>Bio medical Engineerin</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+-->
+
+
+
+
+<div data-role="page" id="computer Science Engineering">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Schools and departments</h1>
+            
+          <iframe src="http://www.umkc.edu/" width="540" height="600">
+           </iframe>
+<
+     </div>
+
+   
+
+     <a  href="#popupBasic" data-rel="popup"  data-role="button">Basic Popup</a>
+
+      <div data-role="popup" id="popupBasic">
+	<p>This is a Basic Popup<p>
+      </div>
+  
+ <a  href="#popupMenu" data-rel="popup"  data-role="button">Menu Popup</a>
+
+      <div data-role="popup" id="popupMenu" data-theme="a">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="b">
+		<li data-role="divider" data-theme="a">languages</li>
+		<li><a href="">English</a></li>
+		<li><a href="">French</a></li>
+		<li><a href="">German</a></li>
+	</ul>
+      </div>
+
+
+
+<a href="#popupPhoto" data-rel="popup" data-role="button" >Photo Popup</a>
+
+<div data-role="popup" id="popupPhoto" data-overlay-theme="a" data-theme="d" data-corners="false">
+<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/9104_-_Milano_-_Museo_storia_naturale_-_Fluorite_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg/1000px-9104_-_Milano_-_Museo_storia_naturale_-_Fluorite_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg" alt="Crystal">
+</div>
+
+
+<a href="#popupVideo" data-rel="popup" data-role="button" data-theme="b" >Launch video player</a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+<iframe src="http://player.vimeo.com/video/41135183?portrait=0" width="497" height="298" seamless></iframe>
+</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="LoadWidgetPage">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Load Widget Page</h1>
+     </div>
+     <div data-role="controlgroup">
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="false" data-textvisible="false" data-msgtext="" data-icon="arrow-r" data-iconpos="right">Default loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="true" data-textvisible="true" data-msgtext="Text loader" data-icon="arrow-r" data-iconpos="right">Text loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme a" data-icon="arrow-r" data-iconpos="right">Theme a loader</button>
+		<button class="show-page-loading-msg" data-theme="b" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme b" data-icon="arrow-r" data-iconpos="right">Theme b loader</button>
+		<button class="show-page-loading-msg" data-theme="c" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme c" data-icon="arrow-r" data-iconpos="right">Theme c loader</button>
+		<button class="show-page-loading-msg" data-theme="d" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme d" data-icon="arrow-r" data-iconpos="right">Theme d loader</button>
+		<button class="show-page-loading-msg" data-theme="e" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme e" data-icon="arrow-r" data-iconpos="right">Theme e loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="true" data-textvisible="true" data-msgtext="Custom Loader" data-icon="arrow-r" data-html="<span class='ui-bar ui-overlay-c ui-corner-all'><img src='http://maps.google.com/mapfiles/kml/shapes/airports.png' /><h2>is loading for you ...</h2></span>" data-iconpos="right">Custom HTML</button>
+		<button class="hide-page-loading-msg" data-icon="delete" data-iconpos="right">Hide</button>
+	</div>
+     
+     
+     
+</div>
+\<div data-role="page" id="page1">
+
+     <div data-role="header">
+          <h1>UMKC Webpage</h1>
+     </div>
+
+     <div data-role="content">     
+          <p><a href="#ButtonEventPage" data-role="button">UMKC</a></p>
+	  <p><a href="#MouseEventPage" data-role="button">School of Engineering</a></p>      
+	  <p><a href="#PopUpPage" data-role="button">Twitter</a></p>         
+          <p><a href="#LoadWidgetPage" data-role="button">Adavanced Sofware Engineering</a></p>
+          <p><a href="#Slider" data-role="button">Directions</a></p>   
+ 	               
+     </div>
+     
+  
+     
+</div>
+
+<div data-role="page" id="ButtonEventPage">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Button Event Page</h1>
+     </div>
+
+<!--     <div data-role="content">     
+          <p>Button Event Sample</p>
+	  <button id="WelcomeButton">Welcome</button>
+          <button id="EventButton">Get random number</button>
+          <div id="status"></div>
+     </div>
+     -->
+<div>
+<iframe src="http://www.umkc.edu/" width="540" height="600">
+</iframe>
+</div>
+     
+     
+</div>
+
+
+
+<div data-role="page" id="MouseEventPage">
+
+
+
+
+
+     <div align="center" data-role="header">
+
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Mouse Event Page</h1>
+     </div> <br><br>
+
+    <font color="red">Mouse Leave Event: </font>
+
+    <div align="center" class="out enterleave">
+	<p>move your mouse</p>
+	<div align="center" class="in enterleave">
+	<p>move your mouse</p>
+	</div>
+    </div><br><br>
+
+
+
+<div>
+<font color="red">Mouse Hover Event: </font>
+
+<ul data-role="listview" data-inset="true">
+    <li><p><a href="#ButtonEventPage" data-role="button">Computer and Electrical Engineering</a></p></li>
+    <li>Civil Engineering</li>
+    <li>Mechanical Engineering</li>
+    <li>Bio medical Engineerin</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div data-role="page" id="PopUpPage">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Popup Page</h1>
+     </div>
+
+   
+
+     <a  href="#popupBasic" data-rel="popup"  data-role="button">Basic Popup</a>
+
+      <div data-role="popup" id="popupBasic">
+	<p>This is a Basic Popup<p>
+      </div>
+  
+ <a  href="#popupMenu" data-rel="popup"  data-role="button">Menu Popup</a>
+
+      <div data-role="popup" id="popupMenu" data-theme="a">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="b">
+		<li data-role="divider" data-theme="a">languages</li>
+		<li><a href="">English</a></li>
+		<li><a href="">French</a></li>
+		<li><a href="">German</a></li>
+	</ul>
+      </div>
+
+
+
+<a href="#popupPhoto" data-rel="popup" data-role="button" >Photo Popup</a>
+
+<div data-role="popup" id="popupPhoto" data-overlay-theme="a" data-theme="d" data-corners="false">
+<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/9104_-_Milano_-_Museo_storia_naturale_-_Fluorite_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg/1000px-9104_-_Milano_-_Museo_storia_naturale_-_Fluorite_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg" alt="Crystal">
+</div>
+
+
+<a href="#popupVideo" data-rel="popup" data-role="button" data-theme="b" >Launch video player</a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+<iframe src="http://player.vimeo.com/video/41135183?portrait=0" width="497" height="298" seamless></iframe>
+</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="LoadWidgetPage">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Load Widget Page</h1>
+     </div>
+     <div data-role="controlgroup">
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="false" data-textvisible="false" data-msgtext="" data-icon="arrow-r" data-iconpos="right">Default loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="true" data-textvisible="true" data-msgtext="Text loader" data-icon="arrow-r" data-iconpos="right">Text loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme a" data-icon="arrow-r" data-iconpos="right">Theme a loader</button>
+		<button class="show-page-loading-msg" data-theme="b" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme b" data-icon="arrow-r" data-iconpos="right">Theme b loader</button>
+		<button class="show-page-loading-msg" data-theme="c" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme c" data-icon="arrow-r" data-iconpos="right">Theme c loader</button>
+		<button class="show-page-loading-msg" data-theme="d" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme d" data-icon="arrow-r" data-iconpos="right">Theme d loader</button>
+		<button class="show-page-loading-msg" data-theme="e" data-textonly="false" data-textvisible="true" data-msgtext="Loading theme e" data-icon="arrow-r" data-iconpos="right">Theme e loader</button>
+		<button class="show-page-loading-msg" data-theme="a" data-textonly="true" data-textvisible="true" data-msgtext="Custom Loader" data-icon="arrow-r" data-html="<span class='ui-bar ui-overlay-c ui-corner-all'><img src='http://maps.google.com/mapfiles/kml/shapes/airports.png' /><h2>is loading for you ...</h2></span>" data-iconpos="right">Custom HTML</button>
+		<button class="hide-page-loading-msg" data-icon="delete" data-iconpos="right">Hide</button>
+	</div>
+     
+     
+     
+</div>
+\
